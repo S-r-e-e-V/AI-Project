@@ -1,0 +1,72 @@
+.grid-container {
+  margin: 20px auto;
+}
+
+.grid {
+  white-space: pre;
+}
+
+button {
+  margin: 2px;
+}
+.title {
+  color: rgb(12, 130, 28);
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.legands {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.legands > div {
+  display: flex;
+}
+.legands span {
+  padding-left: 10px;
+}
+.legand {
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+}
+.legand.green {
+  background-color: green;
+}
+.legand.blue {
+  background-color: blue;
+}
+.legand.brown {
+  background-color: rgb(105, 14, 14);
+}
+.algos {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.custom-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(49, 23, 181);
+  color: #ffffff;
+}
+.custom-button:hover {
+  background-color: rgb(69, 42, 205);
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
